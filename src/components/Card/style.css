@@ -1,0 +1,52 @@
+.card {
+  min-width: 600px;
+  height: 500px;
+  color: white;
+  border-radius: 10px;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  padding: 15px;
+  box-sizing: border-box;
+  transition: transform 0.3s ease-in-out;
+}
+
+.card-body {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  flex-grow: 1;
+}
+
+.company-logo {
+  max-width: 100px;
+  height: auto;
+  object-fit: contain;
+}
+
+.card-title {
+  font-size: 1.2rem;
+  font-weight: 600;
+  color: #fff;
+}
+
+.card-subtitle,
+.card-text {
+  font-size: 1rem;
+  color: #ccc;
+}
+
+.card-text {
+  margin-top: 10px;
+}
+
+@media (max-width: 768px) {
+  .card-container {
+    grid-template-columns: 1fr;
+  }
+  
+  .card {
+    min-width: 100%; 
+    height: auto;
+  }
+}

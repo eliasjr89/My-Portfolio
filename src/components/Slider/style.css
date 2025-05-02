@@ -1,0 +1,62 @@
+.slider-container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  position: relative;
+  padding: 20px;
+  box-sizing: border-box;
+  border-radius: 22px;
+  overflow: hidden;
+}
+
+.card-container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 20px;
+  width: 100%;
+  transition: transform 0.5s ease-in-out;
+  z-index: 1;
+}
+
+.slider-controls {
+  position: absolute;
+  top: 2em !important;
+  left: 50%;
+  transform: translateX(-50%);
+  margin-top: 10px;
+  display: flex;
+  gap: 10px;
+  z-index: 10;
+}
+
+.slider-btn {
+  background-color: rgba(5, 154, 0, 0.636);
+  color: white;
+  font-size: 2rem;
+  padding: 10px;
+  border: none;
+  cursor: pointer;
+  border-radius: 50%;
+  transition: background-color 0.3s ease;
+}
+
+.slider-btn:hover {
+  background-color: rgba(0, 0, 0, 0.8);
+}
+
+@media (max-width: 992px) {
+  .card-container {
+    gap: 10px;
+  }
+  .slider-container {
+    padding: 0;
+  }
+}
+
+@media (max-width: 576px) {
+  .card-container > div {
+    flex: 1 0 100%;
+    max-width: 100%;
+  }
+}

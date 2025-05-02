@@ -1,0 +1,15 @@
+@import url("https://fonts.googleapis.com/css2?family=Inter:opsz@14..32&display=swap");
+
+#root {
+  font-family: "Inter", sans-serif;
+}
+
+img {
+  max-width: 70%;
+}
+
+h2 {
+  color: rgb(73, 175, 115);
+  font-size: 3em;
+  font-weight: bold;
+}

@@ -1,0 +1,21 @@
+.btn-group .btn {
+  margin: 5px;
+  transition: transform 0.3s ease, background-color 0.3s ease;
+}
+
+.btn-group .btn:hover {
+  transform: scale(1.1);
+  color: rgb(255, 255, 255);
+}
+
+.btn-group .btn.active {
+  background-color: #28a745;
+  color: white;
+}
+
+@media (max-width: 576px) {
+  .btn-group .btn {
+    font-size: 0.9rem;
+    padding: 10px 15px;
+  }
+}
