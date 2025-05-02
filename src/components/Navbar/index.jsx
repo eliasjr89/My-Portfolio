@@ -7,8 +7,8 @@ const Navbar = () => {
 
   return (
     <nav className='navbar navbar-expand-lg navbar-light bg-light'>
-      <div className='container-fluid'>
-        <div className="container-fluid d-flex justify-content-between">
+      <div className='container'>
+        <div className="navbar-mobile ">
         <a className='navbar-brand' href='#'>
           Elías Jiminián
         </a>
@@ -25,7 +25,7 @@ const Navbar = () => {
         </button>
         </div>
         <div className='collapse navbar-collapse' id='navbarNav'>
-          <ul className='container-fluid navbar-nav mx-auto'>
+          <ul className='container navbar-nav mx-auto d-flex justify-content-end'>
             <li className='nav-item'>
               <NavLink className='nav-link' to='/about'>
                 {t("about")}

@@ -1,3 +1,4 @@
+
 .photo {
   max-width: 80%;
 }
@@ -9,25 +10,4 @@
 
 .about_text {
   font-size: 14px;
-}
-
-
-.about-title {
-  font-size: 2.5rem;
-  text-align: left; 
-}
-
-@media (max-width: 992px) {
-  .about-title {
-    font-size: 1.8rem;
-    text-align: center;
-    margin-left: auto;
-    margin-right: auto;
-  }
-}
-
-@media (max-width: 576px) {
-  .about-title {
-    font-size: 1.5rem;
-  }
 }

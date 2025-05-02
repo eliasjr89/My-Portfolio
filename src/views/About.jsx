@@ -1,6 +1,7 @@
 import { useTranslation } from "react-i18next";
 import Photo from "../assets/images/photo.png";
 import "../assets/styles/About.css";
+
 const About = () => {
   const { t } = useTranslation();
 
@@ -8,7 +9,7 @@ const About = () => {
     <div className='container mt-3 shadow p-3 rounded-5'>
       <div className='row justify-content-center'>
         {/* Texto sobre mí */}
-        <div className='col-lg-6 col-md-8 text-start p-1'>
+        <div className='col-lg-6 col-md-8 text-start p-3'>
           <h2 className='about-title mb-4'>{t("aboutTitle")}</h2>
           <p
             className='about_text'
